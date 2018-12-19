@@ -7,7 +7,8 @@ module.exports = {
   context: __dirname,
 
   entry: {
-    main: './src/index.js'
+    main: './src/index.js',
+    vendor: './src/vendor/index.js',
   },
 
   output: {
